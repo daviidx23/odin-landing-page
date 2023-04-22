@@ -99,3 +99,22 @@ p {
     font-weight: 800;
     color: #1F2937;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 64px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote {
+    width: 500px;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+}
