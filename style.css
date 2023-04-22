@@ -118,3 +118,31 @@ p {
 .author {
     align-self: flex-end;
 }
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    background-color: #3882F6;
+    margin: 64px;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+#action-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: solid 2px #E5E7EB;
+    margin-left: 32px;
+}
+
+.action-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.action-text {
+    color: #F9FAF8;
+    font-size: 16px;
+}
